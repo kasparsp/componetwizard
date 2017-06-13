@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle otmprocomponet",
+        "command": "otmprocomponet:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "otmprocomponet",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "otmprocomponet:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
